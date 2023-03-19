@@ -13,7 +13,7 @@ body {
     rgba(100, 115, 255, 1) 100%
   );
 }
-.todo-app {
+.App {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -38,6 +38,7 @@ h1 {
 }
 
 .todo-form {
+  padding: 32px;
   margin-bottom: 32px;
 }
 
@@ -93,7 +94,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4px auto;
+  margin: 32px;
   color: #fff;
   background: linear-gradient(
     90deg,
